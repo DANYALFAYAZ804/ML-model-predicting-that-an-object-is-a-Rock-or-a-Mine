@@ -150,7 +150,7 @@ with st.sidebar:
     st.header("🎛️ Controls")
     st.write("Load a preset or paste your own 60 comma-separated readings.")
 
-    if st.button("🪨 Load Sample Rock Data", use_container_width=True):
+    if st.button("🧱 Load Sample Rock Data", use_container_width=True):
         st.session_state.input_data = SAMPLE_ROCK
     if st.button("💣 Load Sample Mine Data", use_container_width=True):
         st.session_state.input_data = SAMPLE_MINE
@@ -244,7 +244,7 @@ if classify_clicked:
 
             is_rock = prediction == "R"
             label = "Rock" if is_rock else "Mine"
-            emoji = "🪨" if is_rock else "💣"
+            emoji = "🧱" if is_rock else "💣"
             card_class = "rock-card" if is_rock else "mine-card"
 
             res_col1, res_col2 = st.columns([1, 1.2], gap="large")
