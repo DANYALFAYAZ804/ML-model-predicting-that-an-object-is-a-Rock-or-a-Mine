@@ -1,0 +1,39 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ── Virtual environments ──
+venv/
+env/
+.venv/
+.env
+
+# ── Jupyter Notebook ──
+.ipynb_checkpoints/
+
+# ── VS Code ──
+.vscode/
+
+# ── PyCharm / JetBrains ──
+.idea/
+
+# ── OS files ──
+.DS_Store
+Thumbs.db
+
+# ── Data files (uncomment if you don't want the dataset tracked) ──
+# sonar data.csv
+
+# ── Trained model files ──
+*.pkl
+*.joblib
+
+# ── Logs ──
+*.log
